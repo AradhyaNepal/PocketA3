@@ -1,4 +1,4 @@
-1-year project. May 1 2024 to May 1, 2025, with the aim to be a full-stack Stack Mobile Developer till I die for which I need a stable yet cross-platform tech stack.
+<h3> 1-year project. May 1 2024 to May 1, 2025, with the aim to learn the tech stack required to be a full-stack Stack Mobile Developer which have stable yet cross-platform tech stack. </h3>
 
 Hello, this is my V2 of Self-Productivity app named PocketA3. You can view the V1 Digi3Map here: [Touch Me!](https://github.com/AradhyaNepal/Digi3Map)
 
