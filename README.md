@@ -1,4 +1,4 @@
-1-year project. May 1 2024 to May 1, 2025, with the aim to be Full Stack Mobile Developer with a stable yet cross-platform stack.
+1-year project. May 1 2024 to May 1, 2025, with the aim to be a full-stack Stack Mobile Developer till I die for which I need a stable yet cross-platform tech stack.
 
 Hello, this is my V2 of Self-Productivity app named PocketA3. You can view the V1 Digi3Map here: [Touch Me!](https://github.com/AradhyaNepal/Digi3Map)
 
@@ -40,7 +40,10 @@ Sept, Oct, Nov, Dec:
   - Obviously, the backend and the Native Android remain in the maintenance phase.
 
 On 2025 May 1 I will Archive this project, and this project always remains "public".
-And will decide whether I will create a separate private repo and move this project to production, or drop the project since the initial aim was only learning, not about creating something for production.
+
+Then I will decide whether I will create a separate private repo by forking this repo where I will start this project to be moved to the production on AppStore and Playstore.
+OR MOST PROBABLY,
+I will not fork the project and move to production. I got enough learning from this project, now it's time to do teaching and earn money out of it. Because I sacrificed my 2024 teaching Aim for this project.
 
 
 
