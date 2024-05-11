@@ -41,9 +41,11 @@ Sept, Oct, Nov, Dec:
 
 On 2025 May 1 I will Archive this project, and this project always remains "public".
 
-Then I will decide whether I will create a separate private repo by forking this repo where I will start this project to be moved to the production on AppStore and Playstore.
+Then I will decide whether I will create a separate "private" repo by "forking" this repo where I will setup and continue this project to be moved to the production on AppStore and Playstore.
+
 OR MOST PROBABLY,
-I will not fork the project and move to production. I got enough learning from this project, now it's time to do teaching and earn money out of it. Because I sacrificed my 2024 teaching Aim for this project.
+
+I will not fork the project. I got enough learning from this project, now it's time to do teaching and earn money out of it. Because I sacrificed my 2024 teaching Aim for this project.
 
 
 
