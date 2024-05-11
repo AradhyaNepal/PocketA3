@@ -29,7 +29,7 @@ Sept, Oct, Nov, Dec:
  - While integrating, I also have to maintain the backend too, and add new features. Basically, it's in the maintenance phase.
  - Since I am already doing Flutter on office projects too, from this phase I will "deprecate" Flutter on all of my practice projects.
    It might sound controversial but, I must expand myself to "long-term support with legacy" mobile stack. In the future, most probably till I die I wanna be a full-stack mobile developer, so I cannot fully depend on Flutter. Flutter is my first love which helped me to build my career, but I need backup.
- - But don't worry regarding Flutter, in a career (that is 1/3 of my life) I will still be doing Flutter to build cross-platform mobile apps. I am not dumb to easily lose my thousands of hours and competitive advantage of professional experience on Flutter, rather I push to become full stack on office with always my 60% main tech stack.
+ - But don't worry regarding Flutter, in a career (that is 1/3 of my life) I will still be doing Flutter to build cross-platform mobile apps. I am not dumb to easily lose my thousands of hours and competitive advantage of professional experience on Flutter, rather I push to become full stack on office with always Flutter on my 60% main tech stack.
 
 2025 Jan, Feb, Mar, Apr:
   - Till this time I hope Apple launches Mac Mini with M3 or with M4. If yes I will buy it, if not, I will buy a Macbook Air base model but with the latest M chip recently launched.
