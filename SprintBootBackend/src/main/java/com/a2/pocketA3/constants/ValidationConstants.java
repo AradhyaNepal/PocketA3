@@ -20,6 +20,8 @@ public class ValidationConstants {
     public static final String referenceIdRequired = "Reference id is Required";
     public static final String otpRequired = "OTP is Required";
     public static final String birthDateRequired = "BirthDate is Required";
+    public static final String maritalStatusRequired = "Marital Status is Required";
+    public static final String phoneNumberRequired = "Phone Number is Required";
     public static final String countryRequired = "Country is Required";
     public static final String mbtiTypeRequired = "MBTI type is Required";
     public static final String heightRequired = "Height is Required";

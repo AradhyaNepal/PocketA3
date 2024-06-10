@@ -5,16 +5,12 @@ import com.a2.pocketA3.features.auth.enums.MBTIType;
 import jakarta.validation.constraints.NotEmpty;
 import lombok.AllArgsConstructor;
 import lombok.Data;
+import lombok.EqualsAndHashCode;
 
-import java.time.LocalDate;
-
+@EqualsAndHashCode(callSuper = true)
 @Data
 @AllArgsConstructor
-public class RegisterPrivateDetailsRequest extends  BaseRegisterStepRequest{
-    @NotEmpty(message = ValidationConstants.birthDateRequired)
-    private LocalDate birthDate;
-    @NotEmpty(message = ValidationConstants.countryRequired)
-    private String country;
+public class RegisterFinalDetailsRequest extends BaseRegisterStepRequest {
     @NotEmpty(message = ValidationConstants.mbtiTypeRequired)
     private MBTIType mbtiType;
     @NotEmpty(message = ValidationConstants.heightRequired)
@@ -23,10 +19,4 @@ public class RegisterPrivateDetailsRequest extends  BaseRegisterStepRequest{
     private double weightKg;
     @NotEmpty(message = ValidationConstants.fatPercentageRequired)
     private double fatPercentage;
-
-    @NotEmpty(message = ValidationConstants.otpRequired)
-    private String otp;
-    @NotEmpty(message = ValidationConstants.referenceIdRequired)
-    private String referenceId;
-
 }

@@ -6,16 +6,13 @@ import jakarta.validation.constraints.Pattern;
 import jakarta.validation.constraints.Size;
 import lombok.AllArgsConstructor;
 import lombok.Data;
+import lombok.EqualsAndHashCode;
 
+@EqualsAndHashCode(callSuper = true)
 @AllArgsConstructor
 @Data
-public class RegisterSetPasswordRequest {
+public class RegisterSetPasswordRequest extends BaseRegisterStepRequest {
 
-    @NotEmpty(message = ValidationConstants.otpRequired)
-    private String otp;
-
-    @NotEmpty(message = ValidationConstants.referenceIdRequired)
-    private String referenceId;
 
     @NotEmpty(message = ValidationConstants.passwordRequired)
     @Pattern(regexp = ValidationConstants.passwordRegex, message = ValidationConstants.passwordRegexMessage)
