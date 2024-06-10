@@ -1,19 +1,10 @@
 package com.a2.pocketA3.features.auth.dto;
 
 
-import com.a2.pocketA3.constants.ValidationConstants;
-import jakarta.validation.constraints.NotEmpty;
-import jakarta.validation.constraints.NotNull;
-import lombok.AllArgsConstructor;
-import lombok.Data;
+public class RegisterOTPValidateRequest extends BaseRegisterStepRequest {
 
-@Data
-@AllArgsConstructor
-public class RegisterOTPValidateRequest {
 
-    @NotEmpty(message = ValidationConstants.otpRequired)
-    private String otp;
-
-    @NotEmpty(message = ValidationConstants.referenceIdRequired)
-    private String referenceId;
+    public RegisterOTPValidateRequest(String referenceId, String otp) {
+        super(referenceId, otp);
+    }
 }

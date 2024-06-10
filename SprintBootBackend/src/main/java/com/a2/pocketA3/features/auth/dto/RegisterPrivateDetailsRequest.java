@@ -10,7 +10,7 @@ import java.time.LocalDate;
 
 @Data
 @AllArgsConstructor
-public class RegisterPrivateDetailsRequest {
+public class RegisterPrivateDetailsRequest extends  BaseRegisterStepRequest{
     @NotEmpty(message = ValidationConstants.birthDateRequired)
     private LocalDate birthDate;
     @NotEmpty(message = ValidationConstants.countryRequired)
