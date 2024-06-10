@@ -3,14 +3,13 @@ package com.a2.pocketA3.features.auth.entity;
 import com.a2.pocketA3.features.auth.enums.MBTIType;
 import jakarta.persistence.*;
 
+import java.lang.annotation.ElementType;
 import java.time.LocalDate;
 
 public class RegisteringUser {
     @Id
     @GeneratedValue
     private int id;
-
-
     private String email;
     private String fullName;
     private String profileUrl;

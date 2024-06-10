@@ -9,5 +9,6 @@ public class ValidationConstants {
     public static final String passwordMinLengthMessage="Password must be 8 character long";
     public static final String emailNotValid="Please enter valid email";
     public static final String emailRequired="Email is Required";
+    public static final String referenceIdRequired="Reference id is Required";
     public static final String otpRequired="OTP is Required";
 }
