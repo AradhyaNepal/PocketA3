@@ -8,15 +8,19 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
 
-@EqualsAndHashCode(callSuper = true)
 @AllArgsConstructor
 @Data
-public class RegisterSetPasswordRequest extends BaseRegisterStepRequest {
+public class RegisterSetPasswordRequest {
 
 
     @NotEmpty(message = ValidationConstants.passwordRequired)
     @Pattern(regexp = ValidationConstants.passwordRegex, message = ValidationConstants.passwordRegexMessage)
     @Size(min = ValidationConstants.passwordMinLength, message = ValidationConstants.passwordMinLengthMessage)
     private String password;
+
+    @NotEmpty(message = ValidationConstants.referenceIdRequired)
+    private String referenceId;
+    @NotEmpty(message = ValidationConstants.otpRequired)
+    private String otp;
 
 }

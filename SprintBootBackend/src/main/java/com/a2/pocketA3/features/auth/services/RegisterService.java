@@ -8,12 +8,13 @@ public class RegisterService {
     }
 
     public  String registerStep(BaseRegisterStepRequest stepRequest){
-        if(stepRequest instanceof RegisterSecondDetailsRequest){
+        if(stepRequest instanceof RegisterFirstDetailsRequest){
             return  "";
-        }else if(stepRequest instanceof RegisterFirstDetailsRequest){
+        }else if(stepRequest instanceof RegisterSecondDetailsRequest){
             return  "";
-        }else{
+        }else if(stepRequest instanceof RegisterFinalDetailsRequest){
             return  "";
         }
+        return  "";
     }
 }
