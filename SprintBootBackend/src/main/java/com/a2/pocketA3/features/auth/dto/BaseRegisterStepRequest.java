@@ -8,7 +8,7 @@ import lombok.NoArgsConstructor;
 
 @NoArgsConstructor
 @Data
-public abstract class BaseRegisterStepRequest {
+sealed public abstract class BaseRegisterStepRequest permits RegisterFinalDetailsRequest, RegisterFirstDetailsRequest, RegisterSecondDetailsRequest {
     @NotEmpty(message = ValidationConstants.referenceIdRequired)
     private String referenceId;
     @NotEmpty(message = ValidationConstants.otpRequired)

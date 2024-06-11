@@ -11,7 +11,7 @@ import java.io.File;
 @EqualsAndHashCode(callSuper = true)
 @Data
 @AllArgsConstructor
-public class RegisterFinalDetailsRequest extends BaseRegisterStepRequest {
+public final class RegisterFinalDetailsRequest extends BaseRegisterStepRequest {
     @NotEmpty(message = ValidationConstants.profileRequired)
     private File profile;
 

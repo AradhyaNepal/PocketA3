@@ -13,7 +13,7 @@ import lombok.EqualsAndHashCode;
 @EqualsAndHashCode(callSuper = true)
 @AllArgsConstructor
 @Data
-public class RegisterSecondDetailsRequest extends BaseRegisterStepRequest {
+public final class RegisterSecondDetailsRequest extends BaseRegisterStepRequest {
 
 
     @NotEmpty(message = ValidationConstants.maritalStatusRequired)

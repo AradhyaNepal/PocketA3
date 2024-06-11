@@ -10,7 +10,7 @@ import java.time.LocalDate;
 @EqualsAndHashCode(callSuper = true)
 @Data
 @AllArgsConstructor
-public class RegisterFirstDetailsRequest extends BaseRegisterStepRequest {
+public final class RegisterFirstDetailsRequest extends BaseRegisterStepRequest {
 
     @NotEmpty(message = ValidationConstants.fullNameRequired)
     private String fullName;
