@@ -2,6 +2,7 @@ spring:
   application:
     name: pocketA3
 
+
   datasource:
     url: jdbc:postgresql://localhost:5432/pocketa3
     username: postgres
