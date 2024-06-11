@@ -5,7 +5,11 @@ import org.springframework.stereotype.Service;
 
 @Service
 public class RegisterService {
-    public String registerEmail(RegisterEmailRequest request) {
+    public String registerToSendOTP(RegisterEmailRequest request) {
+        return "";
+    }
+
+    public String registerOTPValidate(RegisterOTPValidateRequest request) {
         return "";
     }
 

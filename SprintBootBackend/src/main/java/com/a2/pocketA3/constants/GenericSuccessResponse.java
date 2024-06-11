@@ -8,13 +8,13 @@ public class GenericSuccessResponse<T> extends GenericResponse<T> {
     final public String message;
 
     public GenericSuccessResponse(T data, String message) {
-        super(HttpStatus.OK);
+        super(data, HttpStatus.OK);
         this.data = data;
         this.message = message;
     }
 
     public GenericSuccessResponse(String message) {
-        super(HttpStatus.OK);
+        super(null,HttpStatus.OK);
         this.data = null;
         this.message = message;
     }

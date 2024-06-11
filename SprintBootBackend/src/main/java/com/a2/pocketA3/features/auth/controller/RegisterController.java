@@ -22,21 +22,16 @@ public class RegisterController {
 
     private RegisterService registerService;
 
-    @PostMapping(value = "s1-add-email")
-    public void registerEmail(@RequestBody @Valid RegisterEmailRequest request) {
-
+    @PostMapping(value = "s1-register-to-send-otp")
+    public GenericSuccessResponse<String> registerToSendOTP(@RequestBody @Valid RegisterEmailRequest request) {
+        return new GenericSuccessResponse<>(registerService.registerToSendOTP(request), ResponseMessageConstants.genericSuccess);
     }
 
     @PostMapping(value = "s2-verify-otp")
-    public void verifyOTP(@RequestBody @Valid RegisterEmailRequest request) {
+    public GenericSuccessResponse<String> verifyOTP(@RequestBody @Valid RegisterOTPValidateRequest request) {
+        return new GenericSuccessResponse<>(registerService.registerOTPValidate(request), ResponseMessageConstants.genericSuccess);
 
     }
-
-    @PostMapping(value = "s2-resend-otp")
-    public void resendOTP(@RequestBody @Valid RegisterResendOTPRequest request) {
-
-    }
-
 
     @PostMapping(value = "s3-first-details")
     public void setFirstDetails(@RequestBody @Valid RegisterFirstDetailsRequest request) {
