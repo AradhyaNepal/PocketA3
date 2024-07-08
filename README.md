@@ -7,7 +7,6 @@ In the same way, the features of PocketA3 are not my major concern, I am doing t
 
 This PocketA3 is a project from which I will learn:
 1) Sprint boot
-2) React inside Flutter for android app
-3) Finally Swift with SwiftUI for iOS development.
+2) React inside Flutter
 
-This project deadline is 2025 July 1. Where first 9 month is Spring boot and react then other 3 month is IOS.
+This project deadline is 2025 July 1. 
